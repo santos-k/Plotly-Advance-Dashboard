@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dashboard</title>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div>
+                <h1>MoenyView</h1>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="#" >Home</a> 
+                        </li>
+                        <li>
+                            <a href="#" >About</a> 
+                        </li>
+                        <li>
+                            <a href="#" class="active">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+                    <ul class="options">
+                        <li>
+                            <a href="#">
+                                <span class="material-icons">
+                                    search
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="notification">
+                                <span class="material-icons">
+                                    notifications
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://source.unsplash.com/B5PLtlpR7YA/100x100"
+                                alt="user" class="profile-img" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-btn">
+                <span class="material-icons">
+                    segment
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="sidebar">
+        <div class="container">
+            <h3 class="title">Menu</h3>
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="material-icons">
+                            home
+                        </span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="material-icons">
+                            favorite
+                        </span>
+                        <span>Favorites</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="material-icons">
+                            lock
+                        </span>
+                        <span>Security</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="material-icons">
+                            help
+                        </span>
+                        <span>Help</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="material-icons">
+                            tune
+                        </span>
+                        <span>Settings</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="note">
+                <h1>What's New</h1>
+                <p>
+                    Stay notified with the latest updates
+                    and bug fixes in this brand new version 4
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="sidebar-footbar">
+                <p> &copy; Lorem ipsum dolor</p>
+            </div>
+        </div>
+    </nav>
+    <main class="dashboard">
+        <div class="panel list">
+            <li>
+                <h2>Earnings</h2>
+                <span>Monthly</span>
+            </li>
+            <li>
+                <h4>January</h4>
+                <span>4,856</span>
+            </li>
+            <li>
+                <h4>February</h4>
+                <span>7,550</span>
+            </li>
+            <li>
+                <h4>March</h4>
+                <span>3,855</span>
+            </li>
+            <li>
+                <h4>April</h4>
+                <span>2,452</span>
+            </li>
+            <li>
+                <h4>May</h4>
+                <span>1,452</span>
+            </li>
+        </div>
+
+        <div id="barChart"></div>
+
+        <div class="goals">
+            <div class="panel goal">
+                <span class="material-icons">
+                    check_circle
+                </span>
+                <div>
+                    <div class="goal-title">
+                        <h4>Daily</h4>
+                        <h4>450$</h4>
+                    </div>
+                    <small>Lorem ipsum dolor sit amet</small>
+                </div>
+            </div>
+            <div class="panel goal">
+                <span class="material-icons">
+                    check_circle
+                </span>
+                <div>
+                    <div class="goal-title">
+                        <h4>Monthly</h4>
+                        <h4>2,450$</h4>
+                    </div>
+                    <small>Lorem ipsum dolor sit amet</small>
+            </div>
+            </div>
+            <div class="panel goal">
+                <span class="material-icons">
+                    check_circle
+                </span>
+                <div>
+                    <div class="goal-title">
+                        <h4>Annual</h4>
+                        <h4>22,540$</h4>
+                    </div>
+                    <small>Lorem ipsum dolor sit amet</small>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id="scientificChart"></div>
+
+        <div class="sales">
+            <div>
+                <h4>March</h4>
+                <h1>24</h1>
+                <small>6 days left</small>
+            </div>
+            <div>
+                <h4>Bookings</h4>
+                <h1>$519k</h1>
+                <small>20% of plan</small>
+            </div>
+            <div>
+                <h4>Closing</h4>
+                <h1>92%</h1>
+                <small>345 deals</small>
+            </div>
+            <div>
+                <h4>New Customers</h4>
+                <h1>36</h1>
+                <small>19 last month</small>
+            </div>
+        </div>
+
+        <div id="pieChart"></div>
+
+        <div class="panel list">
+            <li>
+                <h2>Deals</h2>
+                <span>Monthly</span>
+            </li>
+            <li>
+                <h4>January</h4>
+                <span>23</span>
+            </li>
+            <li>
+                <h4>February</h4>
+                <span>15</span>
+            </li>
+            <li>
+                <h4>March</h4>
+                <span>41</span>
+            </li>
+            <li>
+                <h4>April</h4>
+                <span>11</span>
+            </li>
+        </div>
+
+        <div class="panel text text-vertical">
+            <h1>Details</h1>
+            <small>lorem ipsum</small>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Nulla qui voluptates a modi 
+                porro, neque nemo cupiditate corporis cum ipsa
+                
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Nulla qui voluptates a modi 
+                
+            
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Nulla qui voluptates a modi 
+                porro, neque nemo cupiditate corporis cum ipsa
+                 
+            </p>
+        </div>
+
+        <div class="panel text text-horizontal">
+            <h1>Updates</h1>
+            <small>lorem ipsum</small>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Nulla qui voluptates a modi 
+                porro, neque nemo cupiditate corporis cum ipsa
+                 ex, maiores pariatur consequatur, nesciunt quo 
+                 repellendus soluta quos aspernatur.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Nulla qui voluptates a modi 
+                porro, neque nemo cupiditate corporis cum ipsa
+                 ex, maiores pariatur consequatur, nesciunt quo 
+                 repellendus soluta quos aspernatur.Lorem ipsum dolor sit amet, consectetur 
+                 adipisicing elit. Nulla qui voluptates a modi 
+                 porro, neque nemo cupiditate corporis cum ipsa
+                  ex, maiores pariatur consequatur, nesciunt quo 
+                  repellendus soluta quos aspernatur.
+            </p>
+        </div>
+
+        <div id="carpetChart"></div>
+
+        <div class="goals">
+            <div class="panel goal">
+                <span class="material-icons">
+                    fingerprint
+                </span>
+                <div>
+                    <div class="goal-title">
+                        <h4>Privacy</h4>
+                    </div>
+                    <small>Lorem ipsum dolor sit amet</small>
+                </div>
+            </div>
+            <div class="panel goal">
+                <span class="material-icons">
+                    dashboard
+                </span>
+            </div>
+            <small>Lorem ipsum dolor sit amet</small>
+        </div>
+        <div class="panel goal">
+            <span class="material-icons">
+                manage_accounts
+            </span>
+            <div class="goal-title">
+                <h4>Manage</h4>
+            </div>
+            <small>Lorem ipsum dolor sit amet</small>
+        </div>
+
+        <div id="donutChart"></div>
+
+    </main>
+    
+
+
+    <!-- Plotly JS -->
+    <script src="https://cdn.plot.ly/plotly-2.4.2.min.js"></script>
+    <!-- Data for more complex charts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <!-- Main Script -->
+    <script src="./main.js"></script>
+</body>
+</html>
